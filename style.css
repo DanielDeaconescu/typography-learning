@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    width: 320px;
+    margin: 20px auto 0;
+    border: 2px solid #000;
+    padding: 7px;
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    background-color: #000;
+}
+
+.large {
+    height: 10px;
+}
+
+.medium {
+    height: 5px;
+}
+
+.servings {
+    letter-spacing: 0.1rem;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.less-bold {
+    font-weight: 700;
+}
+
+.calories {
+    font-size: 35px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.gram {
+    font-weight: 400;
+}
+
+.indent {
+    margin-left: 10px;
+}
+
+.indent-more {
+    margin-left: 15px;
+}
+
+.indent-max {
+    margin-left: 25px;
+}
+
+.info-p {
+    padding: 5px;
+    font-size: 10px;
+}
